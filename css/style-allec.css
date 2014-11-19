@@ -3717,7 +3717,7 @@ ol {
 }
 .header--thin {
   padding-top: 0;
-  min-height: 69px;
+  min-height: 0px;
 }
 .header--thin .header-fixed {
   top: 106px;
@@ -11990,6 +11990,13 @@ table th[class*="col-"] {
   text-align: center;
   background-size: cover;
   min-height: 860px;
+
+}
+.scroll-slide-typewrite {
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  min-height: 500px;
 }
 .scroll-slide__holder{
   position: absolute;
@@ -12004,7 +12011,7 @@ table th[class*="col-"] {
 .scroll-slide .scroll-slide__heading {
   margin-top: 0px;
   margin-bottom: 13px;
-  /*padding-top: 17%;*/
+  padding-top: 17%;
   font-size: 44px;
   font-family: 'Varela Round', sans-serif;
   color: #000;
